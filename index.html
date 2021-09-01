@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+ <div id="trip">
+
+     <div id="country_div">
+        <label for="countries" class="title">Ընտրեք երկիրը</label>
+        <input list="countries" type="text" name="country" id="country" >
+        <datalist id="countries" >
+           
+        </datalist>
+        
+       
+     </div>
+    
+     <div id="city_div">
+        <label for="cit" class="title">Ընտրեք քաղաքը</label>
+        <input list="cities" name="cit" type="text" id="city_input">
+        <datalist id="cities">
+            
+        </datalist>
+     </div>
+     
+     <div id="daily_night">
+      <div id="daily_div">
+         <p>Օրապահիկ (1 օր)</p>
+         <div class="curr">
+            <div id="daily"></div>
+            <p class="currency">USD</p>
+         </div>
+      </div>
+      <div id="night_div">
+         <p>Գիշերավարձ (1 օր)</p>
+         <div class="curr">
+            <div id="overnight"></div>
+            <p class="currency">USD</p>
+         </div>
+      </div>
+     </div>
+
+     <div id="dates">
+      <div class="dates">
+         <p>Սկիզբ (ներառյալ)</p>
+         <input id="start" type="date">
+      </div>
+      <div class="dates">
+         <p>Ավարտ (ներառյալ)</p>
+         <input id="end" type="date">
+      </div>
+     </div>
+
+     <div class="_q">
+        <p id="quantity">Օրերի քանակ</p>
+        <div id="q"></div>
+     </div>
+
+     <div id="general">
+      <div id="daily_gen">
+         <p>Օրապահիկ (ընդ․)</p>
+         <div class="curr">
+            <div id="daily_g"></div>
+            <p class="currency">USD</p>
+         </div>
+      </div>
+      <div id="night_gen">
+         <p>Գիշերավարձ (ընդ․)</p>
+         <div class="curr">
+            <div id="overnight_g"></div>
+            <p class="currency">USD</p>
+         </div>
+      </div>
+     </div>
+     
+     <p class="valut">Տվյալ օրվա փոխարժեքը նայել հետևյալ <a href="https://www.cba.am/am/SitePages/ExchangeArchive.aspx" target="_blank">հղումով</a></p>
+   </div>
+
+   
+     
+
+
+    
+
+    <script src="js/script.js"></script>
+</body>
+</html>
